@@ -1,1 +1,1 @@
-Fails to build, kepping as a backup only.
+Fails to build, keeping as a backup only.
