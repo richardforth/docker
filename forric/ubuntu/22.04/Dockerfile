@@ -7,3 +7,4 @@ RUN  apt-get -y install net-tools
 RUN  apt-get -y install apache2
 RUN  apt-get -y install perl
 RUN  apt-get -y install python3
+RUN  apt-get -y install python3-distro
