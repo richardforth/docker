@@ -1,4 +1,4 @@
-FROM amazonlinux:latest
+FROM amazonlinux:2
 RUN yum install -y python3 python3-pip
 RUN pip3 install distro
 RUN yum install -y perl
