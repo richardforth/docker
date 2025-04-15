@@ -1,3 +1,3 @@
-# Rocky Linux 8
+# Rocky Linux 9
 
-https://hub.docker.com/repository/docker/forric/rockylinux8
+https://hub.docker.com/repository/docker/forric/rockylinux9
