@@ -10,6 +10,9 @@ RUN mkdir -p /etc/portage/package.accept_keywords
 # Add keyword for apache
 RUN echo 'www-servers/apache ~amd64' > /etc/portage/package.accept_keywords/apache
 
+# Ensure we built apache as prefork
+RUN echo 'www-servers/apache -mpm_event mpm_prefork' >> /etc/portage/package.use/apache
+
 # Sync Portage and install packages
 RUN emerge-webrsync && \
     emerge --sync && \
